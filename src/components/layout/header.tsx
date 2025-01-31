@@ -19,7 +19,7 @@ const navItems: NavItem[] = [
 export const Header = () => {
   return (
     <header
-      className="sticky top-0 z-40 border-b border-transparent transition duration-200 ease-in-out mx-auto w-full max-w-5xl px-6 md:max-w-7xl flex justify-between items-center h-[58px]"
+      className="sticky top-0 z-40 border-b border-transparent mx-auto w-full max-w-5xl px-6 md:max-w-7xl flex justify-between items-center h-[58px]"
       aria-label="Main"
       data-orientation="horizontal"
       dir="ltr"
