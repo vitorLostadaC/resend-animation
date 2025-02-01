@@ -1,4 +1,4 @@
-## Animation improviment
+## Animation Improvement
 
 This is just a very detailed improvement. If you watch both animations at normal speed, they will probably look the same because both are great animations with custom easing and are fast. I implemented the same behavior using masks to try to create a smoother transition.
 
