@@ -10,7 +10,9 @@ export const HeroSection = () => {
         We&apos;re creating something special here, and we&apos;re looking{' '}
         <br /> for people who care deeply about quality to build it with us.
       </p>
-      <Button className="h-12 px-5 font-semibold">See open positions</Button>
+      <Button className="h-12 px-5 font-semibold text-base">
+        See open positions
+      </Button>
     </div>
   )
 }

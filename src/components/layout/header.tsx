@@ -25,18 +25,20 @@ export const Header = () => {
       dir="ltr"
     >
       <div className=" lg:w-[225px]">
-        <img src="/logo.svg" alt="logo" className="h-4 w-auto " />
+        <img src="/logo.svg" alt="logo" className="h-[17px] w-auto " />
       </div>
 
-      <div className="hidden items-center gap-6 md:flex ">
+      <div className="hidden items-center gap-7 md:flex ">
         {navItems.map((item) => (
           <Link
             key={item.name}
             href={item.href}
-            className="flex items-center gap-1 text-muted-foreground text-sm font-medium"
+            className="flex items-center gap-1 text-muted-foreground text-sm font-bold py-2"
           >
             {item.name}
-            {item.hasChildren && <ChevronDownIcon className="size-4" />}
+            {item.hasChildren && (
+              <ChevronDownIcon className="size-4" strokeWidth={1} />
+            )}
           </Link>
         ))}
       </div>
@@ -46,7 +48,7 @@ export const Header = () => {
           Sign in
         </Button>
         <Button className="font-bold">
-          Get Started <ChevronRightIcon className="size-4" />
+          Get Started <ChevronRightIcon className="size-4" strokeWidth={1.5} />
         </Button>
       </div>
 
